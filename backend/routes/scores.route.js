@@ -1,4 +1,4 @@
-import { lookup } from "../controllers/scores_controller.js";
+import { lookup } from "../controllers/scores.controller.js";
 import express from "express";
 import { validateParams } from "../middleware/validate.js";
 import { lookuschema } from "../validators/scores.js";
