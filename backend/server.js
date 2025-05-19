@@ -10,7 +10,8 @@ const app = express();
 app.use(cors());
 dotenv.config();
 
-const port = process.env.port || 5000
+const PORT = process.env.PORT || 5000;
+
 connectDB();
 
 app.use(express.json());
@@ -18,4 +19,6 @@ app.use(express.json());
 app.use('/api/v1/top10/', top10Router);
 app.use("/api/v1/scores",ScoresRouter);
 app.use("/api/v1/reports",ReportsRouter);
-app.listen(5000, () => console.log('Server running on port 5000'));
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
