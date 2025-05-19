@@ -4,7 +4,7 @@ A fullstack MERN project to import, query, and visualize high school student sco
 
 ---
 
-## 🌟 Project Overview
+## Project Overview
 
 This application allows users to:
 - Lookup student scores by registration number
@@ -14,7 +14,7 @@ This application allows users to:
 
 ---
 
-## ✅ Tasks Progress
+## Tasks Progress
 
 | Ngày | ID   | Phần                       | Task                                | Yêu cầu chính                                           | Check |
 |------|------|----------------------------|-------------------------------------|---------------------------------------------------------|-------|
@@ -46,9 +46,9 @@ This application allows users to:
 
 ---
 
-## 🔗 Demo
+## Demo
 
-- 🖥️ Frontend: [https://demo-frontend.vercel.app](https://demo-frontend.vercel.app)
-- 🔌 Backend API: [https://demo-backend.fly.dev/api/scores/123456](https://demo-backend.fly.dev/api/scores/123456)
+- Frontend: [https://demo-frontend.vercel.app]([https://demo-frontend.vercel.app](https://frontend-iota-pink-47.vercel.app/reports))
+
 
 
