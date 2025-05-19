@@ -9,7 +9,7 @@ export const lookup = async(req,res) => {
     if(!scores){
         return res.status(404).json({error: "Not found"});
     }
-    // console.log(get_level(scores.scores.math));
+    console.log(get_level(scores.scores.math));
     return res.json({student: scores});
     } catch (error) {
         console.error('[lookup error]', err);

@@ -3,7 +3,7 @@ import StudentScore from '../models/studentScore.js';
 
 export const getTop10 = async (req, res) => {
     try {
-        console.log(req)
+        // console.log(req)
         const group = req.query.group;
 
         // Định nghĩa môn theo nhóm
@@ -38,7 +38,10 @@ export const getTop10 = async (req, res) => {
 
         const top10 = await StudentScore.aggregate(pipeline);
 
-        res.json(top10);
+        res.json({
+            success: true,
+            data: top10
+        });
     } catch (err) {
         console.error(err);
         res.status(500).json({ error: 'Server error' });

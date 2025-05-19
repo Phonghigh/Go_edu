@@ -4,9 +4,10 @@ import connectDB from "./config/db.js";
 import ScoresRouter from "./routes/scores.route.js";
 import ReportsRouter from "./routes/reports.route.js";
 import top10Router from './routes/top10.route.js';
+import cors from "cors";
 
 const app = express();
-
+app.use(cors());
 dotenv.config();
 
 const port = process.env.port || 5000
