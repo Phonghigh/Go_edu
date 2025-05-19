@@ -44,11 +44,6 @@ This application allows users to:
 | 2    | 5.4  | Docker & Deploy (Optional) | Deploy Backend                     | Heroku/Fly.io deployment                                | ✅      |
 | 2    | 5.5  | Docker & Deploy (Optional) | Deploy Frontend                    | Vercel/Netlify deployment                               | ✅      |
 
----
-
-## Demo
-
-- Frontend: [https://demo-frontend.vercel.app]([https://demo-frontend.vercel.app](https://frontend-iota-pink-47.vercel.app/reports))
 
 
 
