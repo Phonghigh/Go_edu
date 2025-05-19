@@ -48,10 +48,7 @@ This application allows users to:
 
 ## 🔗 Demo
 
-- 🖥️ Frontend: [https://demo-frontend.vercel.app](https://demo-frontend.vercel.app) *(replace with your actual URL)*
-- 🔌 Backend API: [https://demo-backend.fly.dev/api/scores/123456](https://demo-backend.fly.dev/api/scores/123456) *(replace with your actual URL)*
+- 🖥️ Frontend: [https://demo-frontend.vercel.app](https://demo-frontend.vercel.app)
+- 🔌 Backend API: [https://demo-backend.fly.dev/api/scores/123456](https://demo-backend.fly.dev/api/scores/123456)
 
----
-
-## 📂 Project Structure
 
